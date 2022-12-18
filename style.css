@@ -1,0 +1,79 @@
+      .top-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        }
+
+      .top-bar a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 1rem;
+      }
+
+      /* Two icons on the far right side */
+      .icons {
+        display: flex;
+        align-items: center;
+      }
+
+      .icons img {
+        height: 1.5rem;
+        margin-left: 0.5rem;
+      }
+
+      /* Grid with four columns and two rows */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      /* Each cell should have an image, description, and a clickable text title */
+      .grid-cell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .grid-cell img {
+        width: 100%;
+        max-height: 100%;
+      }
+
+      .grid-cell p {
+        margin: 0.5rem 0;
+        text-align: center;
+      }
+
+      .grid-cell a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      /* Footer with copyright content and a button */
+      .footer {
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        color: #fff;
+        padding: 0.5rem 1rem;
+      }
+
+      .footer p {
+        margin: 0;
+      }
+
+      .footer button {
+        background-color: #fff;
+        border: none;
+        color: #333;
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+      }
